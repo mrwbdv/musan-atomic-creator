@@ -1,0 +1,19 @@
+{
+  "name": "musan-atomic-creator",
+  "version": "1.0.0",
+  "description": "CLI tool for create atomic components",
+  "main": "cli.js",
+  "bin": {
+    "mac": "cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "create-component": "node cli.js create-component"
+  },
+  "author": "Akmaral Serikova <mrwbdv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.1"
+  }
+}
